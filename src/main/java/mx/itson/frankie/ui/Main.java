@@ -7,6 +7,7 @@ package mx.itson.frankie.ui;
 import java.util.ArrayList;
 import java.util.List;
 import mx.itson.frankie.entidades.Ingrediente;
+import mx.itson.frankie.entidades.Paso;
 import mx.itson.frankie.entidades.Receta;
 import mx.itson.frankie.enumeradores.Dificultad;
 
@@ -40,6 +41,14 @@ public class Main {
         receta.setDificultad(Dificultad.INTERMEDIO);
         
         // No lo hice xd
+        
+        List<Paso> pasos = new ArrayList<>();
+        Paso paso1 = new Paso();
+        paso1.setOrden(1);
+        paso1.setDescripcion("Bla bla bla bla");
+        
+        
+        
         
         
     }
